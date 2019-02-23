@@ -15,6 +15,10 @@ while i<5:
 
 result=input('是否要翻牌？Y/N')
 if result=='Y':
-
-
+    cd.flip()
+elif result=='N':
+    j = 1
+    while j < 5:
+        start(j)
+        j = j + 1
 

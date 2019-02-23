@@ -1,4 +1,5 @@
 import random
+import copy
 from card import Card
 from hand import Hand
 class Poke(Hand):
